@@ -11,17 +11,13 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    sourcemap: false, // Désactive les source maps pour la prod (plus petit)
+    sourcemap: false,
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'],
-          route: ['react-router-dom'],
-        },
+        // Supprimer les chunks manuels pour éviter les erreurs
       },
     },
   },
-  // Inclure le dossier public dans la build
   publicDir: 'public',
   server: {
     port: 3000,
