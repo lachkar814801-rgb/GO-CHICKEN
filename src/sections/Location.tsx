@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const Location = () => {
   const mapsUrl = 'https://maps.app.goo.gl/TKqpkgCxomSXuzED7'
-  const mapsEmbedUrl = 'https://www.google.com/maps?q=Route+Gremda+Km+9.5+Sfax+Tunisie&output=embed'
+  const mapsEmbedUrl = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3275.870713179794!2d10.6983889!3d34.809194399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDQ4JzMzLjEiTiAxMMKwNDEnNTQuMiJF!5e0!3m2!1sfr!2stn!4v1795550424932!5m2!1sfr!2stn'
   const whatsappMsg = encodeURIComponent('Bonjour, je souhaite commander du poulet grillé !')
   
   return (
