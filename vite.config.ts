@@ -11,7 +11,7 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    sourcemap: true,
+    sourcemap: false, // Désactive les source maps pour la prod (plus petit)
     rollupOptions: {
       output: {
         manualChunks: {
@@ -21,6 +21,8 @@ export default defineConfig({
       },
     },
   },
+  // Inclure le dossier public dans la build
+  publicDir: 'public',
   server: {
     port: 3000,
   },
