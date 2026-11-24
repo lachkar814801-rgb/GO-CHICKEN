@@ -19,7 +19,7 @@ export const menuData: MenuItem[] = [
     titleAr: 'دجاج pane كلاسيكي',
     descriptionFr: 'Semi-poulet pané croustillant servi avec frites maison et salade',
     descriptionAr: 'نصف دجاج مقلى مقرمش مع بطاطس وسalat محلية الصنع',
-    image: '/images/menu/Poulet Pané Classique.webp',
+    image: '/menu/Poulet Pané Classique.webp',
   },
   {
     id: 'pané-famille',
@@ -28,7 +28,7 @@ export const menuData: MenuItem[] = [
     titleAr: 'دجاج pane للعائلة',
     descriptionFr: 'Poulet entier pané avec accompagnement généreux',
     descriptionAr: 'دجاج كامل مقلى مع طبق جانبي وفير',
-    image: '/images/menu/Poulet Pané Famille.webp',
+    image: '/menu/Poulet Pané Famille.webp',
   },
 
   // Poulet rôti items
@@ -39,7 +39,7 @@ export const menuData: MenuItem[] = [
     titleAr: 'دجاج مشوي تقليدي',
     descriptionFr: 'Poulet rôti au four servi avec légumes de saison',
     descriptionAr: 'دجاج مشوي في الفرن مع الخضار الموسمية',
-    image: '/images/menu/Poulet Rôti Traditionnel.webp',
+    image: '/menu/Poulet Rôti Traditionnel.webp',
   },
 
   // Brochettes items
@@ -59,7 +59,7 @@ export const menuData: MenuItem[] = [
     titleAr: 'برشاوت مختلطة',
     descriptionFr: 'Brochettes mixtes légumes et viandes selon votre choix',
     descriptionAr: 'برشاوت مختلطة من الخضار واللحوم حسب اختيارك',
-    image: '/images/menu/Brochettes.webp',  // Même image que les autres brochettes
+    image: '/menu/Brochettes.webp',  // Même image que les autres brochettes
   },
 
   // Grillades items
@@ -70,13 +70,13 @@ export const menuData: MenuItem[] = [
     titleAr: 'شرائح الشمس المشوية',
     descriptionFr: 'Variété de grillades selon les disponibilités (brochettes, escalopes)',
     descriptionAr: 'تشكيلة من الشرائح المشوية حسب التوفر (برشاوت، فخذ)',
-    image: '/images/menu/Grillades du Soleil.webp',
+    image: '/menu/Grillades du Soleil.webp',
   },
 ]
 
 export const categories = [
-  { key: 'pané', labelFr: 'Poulet Pané', image: '/images/menu/Poulet Pané Classique.webp' },
-  { key: 'rôti', labelFr: 'Poulet Rôti', image: '/images/menu/Poulet Rôti Traditionnel.webp' },
-  { key: 'brochettes', labelFr: 'Brochettes', image: '/images/menu/Brochettes.webp' },
-  { key: 'grillades', labelFr: 'Grillades', image: '/images/menu/Grillades du Soleil.webp' },
+  { key: 'pané', labelFr: 'Poulet Pané', image: '/menu/Poulet Pané Classique.webp' },
+  { key: 'rôti', labelFr: 'Poulet Rôti', image: '/menu/Poulet Rôti Traditionnel.webp' },
+  { key: 'brochettes', labelFr: 'Brochettes', image: '/menu/Brochettes.webp' },
+  { key: 'grillades', labelFr: 'Grillades', image: '/menu/Grillades du Soleil.webp' },
 ]
