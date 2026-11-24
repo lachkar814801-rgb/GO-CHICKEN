@@ -93,7 +93,7 @@ const Location = () => {
             <div className="bg-surface/50 rounded-2xl p-6 border border-white/10 hover:border-yellow-400/30 transition-colors group text-center">
               <h3 className="font-bold text-white mb-4">QR Code Google Maps</h3>
               <img
-                src="/images/qr-maps-large.png"
+                src="/qr-maps-large.png"
                 alt="QR Code Google Maps"
                 className="mx-auto w-[280px] h-[280px] rounded-lg border-4 border-yellow-400/30 transition-colors shadow-2xl"
               />
