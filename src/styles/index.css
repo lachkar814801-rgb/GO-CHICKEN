@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent fixed navbar from blocking section headers when scrolling */
+html {
+  scroll-padding-top: 100px; /* Augmenté pour éviter le chevauchement complet */
+}
+
+body {
+  padding-top: 0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Smooth transitions */
+*, *::before, *::after {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Add spacing above sections with IDs for fixed navbar - marge plus grande pour éviter chevauchement */
+section[id]:not(.no-margin) {
+  scroll-margin-top: 120px; /* Augmenté de 85px à 120px pour plus d'espace et résoudre le chevauchement */
+}
+
+/* Section menu spéciale - doit être encore plus haut car c'est une page dédiée */
+#menu {
+  scroll-margin-top: 140px;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(255, 193, 7, 0.3);
+}
