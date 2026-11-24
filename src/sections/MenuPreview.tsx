@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 const MenuPreview = () => {
   const previewItems = [
-    { titleFr: 'Poulet Pané Classique', category: 'Poulet Pané', image: '/images/menu/Poulet Pané Classique.webp' },
-    { titleFr: 'Grillades du Soleil', category: 'Grillades', image: '/images/menu/Grillades du Soleil.webp' },
-    { titleFr: 'Brochettes de Légumes', category: 'Brochettes', image: '/images/menu/Brochettes.webp' },
+    { titleFr: 'Poulet Pané Classique', category: 'Poulet Pané', image: '/images/menu/poulet-pane-classique.webp' },
+    { titleFr: 'Grillades du Soleil', category: 'Grillades', image: '/images/menu/grillades-du-soleil.webp' },
+    { titleFr: 'Brochettes de Légumes', category: 'Brochettes', image: '/images/menu/brochettes.webp' },
   ] as const;
 
   return (

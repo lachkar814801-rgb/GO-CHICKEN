@@ -4,8 +4,8 @@ export interface GalleryImage {
 }
 
 export const galleryData: GalleryImage[] = [
-  { src: '/menu/grillades.jpeg', alt: 'Grillades et brochettes' },
-  { src: '/menu/poulet-pane.jpeg', alt: 'Poulet pané croustillant' },
-  { src: '/menu/restaurant-enseigne.jpeg', alt: 'Restaurant extérieur' },
-  { src: '/menu/brochettes.jpeg', alt: 'Brochettes grillées' },
+  { src: '/images/grillades.jpg', alt: 'Grillades et brochettes' },
+  { src: '/images/poulet-pane.jpg', alt: 'Poulet pané croustillant' },
+  { src: '/images/restaurant-enseigne.jpg', alt: 'Restaurant extérieur' },
+  { src: '/images/brochettes.jpg', alt: 'Brochettes grillées' },
 ];

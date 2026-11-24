@@ -12,13 +12,13 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
+    copyPublicDir: true, // Copier public/ vers dist/public/
     rollupOptions: {
-      output: {
-        // Supprimer les chunks manuels pour éviter les erreurs
-      },
+      output: {},
     },
   },
   publicDir: 'public',
+  assetsInlineLimit: 0,
   server: {
     port: 3000,
   },

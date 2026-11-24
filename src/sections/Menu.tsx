@@ -68,8 +68,9 @@ const Menu = () => {
                         src={item.image}
                         alt={item.titleFr}
                         className="w-full h-full object-cover transform group-hover/item:scale-105 transition-transform duration-500"
+                        loading="lazy"
                         onError={(e) => {
-                          (e.target as HTMLImageElement).src = '/images/menu/Brochettes.webp'
+                          (e.target as HTMLImageElement).src = '/images/menu/brochettes.webp'
                         }}
                       />
                     </div>

@@ -5,19 +5,19 @@ const Specialties = () => {
     {
       title: 'Le Poulet Pané',
       desc: 'Nos recettes emblématiques au poulet pané croustillant, mijoté dans notre sauce secrète maison.',
-      image: '/images/poulet-pane.jpeg',
+      image: '/images/poulet-pane.jpg',
       alt: 'Poulet pané croustillant',
     },
     {
       title: 'Le Poulet Rôti',
       desc: 'Succulent poulet rôti au four, servi avec légumes de saison et pommes de terre.',
-      image: '/images/restaurant-enseigne.jpeg',
+      image: '/images/restaurant-enseigne.jpg',
       alt: 'Poulet rôti',
     },
     {
       title: 'Les Brochettes',
       desc: 'Brochettes grillées traditionnelles et brochettes de légumes - un vrai festin tunisien !',
-      image: '/images/brochettes.jpeg',
+      image: '/images/brochettes.jpg',
       alt: 'Brochettes et grillades',
     },
   ] as const;
