@@ -17,7 +17,7 @@
       ]
     },
     {
-      "source": "/qr-*.png",
+      "source": "/qr-maps.*\\.png",
       "headers": [
         {
           "key": "Cache-Control",
