@@ -10,13 +10,16 @@ try {
     const files = fs.readdirSync(srcImagesDir);
     
     files.forEach((file) => {
+      // Skip dossiers, ne copier que les fichiers
       const srcFile = path.join(srcImagesDir, file);
       const destFile = path.join(destImagesDir, file);
       
-      // Copier le fichier à la racine de dist/
-      if (!fs.existsSync(destFile)) {
+      // Vérifier que c'est un fichier (pas un dossier) et qu'il n'existe pas déjà
+      if (fs.statSync(srcFile).isFile() && !fs.existsSync(destFile)) {
         fs.copyFileSync(srcFile, destFile);
         console.log(`✓ Copié ${file} dans dist/`);
+      } else if (fs.statSync(srcFile).isDirectory()) {
+        console.log(`⊘ Saute dossier : ${file}`);
       }
     });
     
