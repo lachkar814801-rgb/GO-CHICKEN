@@ -1,0 +1,3 @@
+Sitemap: https://go-chicken.vercel.app/sitemap.xml
+User-agent: *
+Allow: /
