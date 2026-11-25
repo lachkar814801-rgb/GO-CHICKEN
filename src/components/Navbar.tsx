@@ -65,11 +65,7 @@ const Navbar = () => {
 
             {/* Command Button */}
             <Link
-<<<<<<< HEAD
               to="/menu"
-=======
-              to="/location"
->>>>>>> ce6144df89c9115f1d10b4029d0ed9b61b96887b
               className="hidden sm:flex items-center gap-2 bg-gradient-to-r from-yellow-400 to-orange-500 text-background font-bold px-5 py-2.5 rounded-full hover:shadow-lg hover:shadow-yellow-400/25 transform hover:-translate-y-0.5 transition-all"
             >
               <Phone size={16} />
@@ -101,11 +97,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <Link
-<<<<<<< HEAD
                 to="/menu"
-=======
-                to="/location"
->>>>>>> ce6144df89c9115f1d10b4029d0ed9b61b96887b
                 onClick={() => setIsOpen(false)}
                 className="flex items-center justify-center gap-2 w-full py-3 bg-gradient-to-r from-yellow-400 to-orange-500 text-background font-bold rounded-lg hover:shadow-lg transition-all"
               >
